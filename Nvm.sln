@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nvm", "Nvm\Nvm.csproj", "{4C3A8D9B-0807-4B29-9FAF-CBEDD8027019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NvmTests", "NvmTests\NvmTests.csproj", "{D2A4220E-6928-4F1F-9AC2-0E781A3E92B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C3A8D9B-0807-4B29-9FAF-CBEDD8027019} = {4C3A8D9B-0807-4B29-9FAF-CBEDD8027019}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3A8D9B-0807-4B29-9FAF-CBEDD8027019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3A8D9B-0807-4B29-9FAF-CBEDD8027019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3A8D9B-0807-4B29-9FAF-CBEDD8027019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3A8D9B-0807-4B29-9FAF-CBEDD8027019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A4220E-6928-4F1F-9AC2-0E781A3E92B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A4220E-6928-4F1F-9AC2-0E781A3E92B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A4220E-6928-4F1F-9AC2-0E781A3E92B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A4220E-6928-4F1F-9AC2-0E781A3E92B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
